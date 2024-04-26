@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: About us
 permalink: /about
 comments: false
 ---
 
-# About us
+# bla bla bla
