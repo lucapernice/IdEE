@@ -2,7 +2,7 @@
 name: "IdEE Blog"
 title: "IdEE"
 description: "Mathematics, Artificial Intelligence, Physics, Engineering, and beyond. Born from the creative whims of friends."
-logo: 'assets/images/logo.png'
+logo: 'assets/images/logo.jpeg'
 favicon: 'assets/images/logo.png'
 baseurl: 'https://lucapernice.github.io/IdEE/'
 google_analytics: 'UA-46278016-1'
