@@ -11,7 +11,10 @@ toc: true
 ## What is a Superconductor?
 
 Superconductors are materials that, under certain conditions of temperature, can conduct electric current with zero resistance. This property is monumental in physics and technology because it eliminates the *Joule effect, where power dissipation (P*) in a conductor is given by the following formula:
-$$P = RI^2$$ When resistance (*R*) approaches zero, power dissipation also becomes negligible. This breakthrough could revolutionize scientific research and technology, particularly in energy-saving applications for ecological transitions.
+
+$$P = RI^2$$
+
+When resistance (*R*) approaches zero, power dissipation also becomes negligible. This breakthrough could revolutionize scientific research and technology, particularly in energy-saving applications for ecological transitions.
 
 However, widespread adoption of superconductors faces challenges. These materials are typically expensive to produce, and their superconducting behavior occurs only at extremely low temperatures. Each superconductor has a *critical temperature* (*T~c~*), below which it exhibits superconductivity. In this paper we'll explore later on why this low-temperature requirement is crucial.
 ![Resistence_Drop]({{ site.baseurl }}/assets/images/grafico con resistance drop.jpeg)
@@ -44,11 +47,15 @@ These pairs of electrons, where one electron effectively trails another, are kno
 Of course, it's only possible to observe this effect when the electromagnetic interaction between electrons and ions is the dominant force acting within the crystal. This requires that the thermal energy be lower than a certain threshold, below which the vibrations of the ions have a negligible effect compared to the interaction of Cooper pairs.
 
 Given that the average kinetic energy is proportional to Boltzmann's constant (*k~B~) times the temperature, the critical level (E~c~*) at which superconductivity occurs can be expressed as:
+
 $$E_c \propto k_B T_c$$
+
 Here, \(T~c~) represents the critical temperature discussed earlier.
 
 The BCS theory also provides a formula to calculate the critical temperature:
+
 $$T_c = T_D \exp \left[ -\frac{1}{n(0)V} \right]$$
+
 Where:
 1. T~D~is the Debye temperature,
 2. n(0) is the density of states at the Fermi level,
@@ -70,18 +77,30 @@ This translates into *magnetic levitation* of the sample. In fact, when a magnet
 ![foto3]({{ site.baseurl }}/assets/images/foto3.jpeg)
 #### London's equation
 Assuming that in a superconductor, which was put below *T~c~* and into a constant magnetic field *B*, a "supercurrent" of electrons moving without friction is present on it's surface, and applying this assumption to third and fourth Maxwell's equations, we can derive London's equation:
+
 $$∇^2\vec B-μ_{0} \frac{e^2 n_{s}}{m_{e}}=0$$Where:
-1. $e$ is the elementary charge;
-2. $m_{e}$ is the electron mass;
-3. $n_{s}$ is the density of electrons.
+
+1. $$e$$ is the elementary charge;
+2. $$m_{e}$$ is the electron mass;
+3. $$n_{s}$$ is the density of electrons.
 
 This equation, which reconciles BCS theory with Maxwell's one, admits that a little part of the superconductor is penetrated by the magnetic field. The magnetic field inside the sample decays exponentially with the depth, so it never actually goes to zero, but after few nanometers it becomes completely negligible.
-In fact, by defining the *depth of penetration* as: $$λ_{L}=\sqrt\frac{m_{e}}{e^2 n_{s}μ_{0}}$$which of course corresponds to the depth in which the internal magnetic field is the external one divided by $e$, we can see that in a real case it is usually in a range of 20 - 50 nm.
+In fact, by defining the *depth of penetration* as:
+
+$$λ_{L}=\sqrt\frac{m_{e}}{e^2 n_{s}μ_{0}}$$
+
+which of course corresponds to the depth in which the internal magnetic field is the external one divided by $e$, we can see that in a real case it is usually in a range of 20 - 50 nm.
 ![penetrazione]({{ site.baseurl }}/assets/images/foto penetrazione campo magnetico.jpeg)
 ### Type I and Type II Superconductors
 Superconductors can be divided in two types, based on their reaction to a magnetic field. More specifically they can expel the magnetic field in two different ways.
 #### Type I superconductors
-This category is formed by those superconductors which give Meissner effect just exactly how we described it before: they just expel every type of magnetic field flux. This means that: $$Mμ_{0}+B_{ext}=B_{int}=0 $$ $$⟹B_{ext}=-Mμ_{0}$$where of course M is the magnetization field. 
+This category is formed by those superconductors which give Meissner effect just exactly how we described it before: they just expel every type of magnetic field flux. This means that:
+
+$$Mμ_{0}+B_{ext}=B_{int}=0 $$ 
+
+$$⟹B_{ext}=-Mμ_{0}$$
+
+where of course M is the magnetization field. 
 It' clear that there's a linear dependence between M and B.
 ![plot]({{ site.baseurl }}/assets/images/plot M-B.jpeg))
 Actually I can see that, after a critical value of the external magnetic field (*B~c~*), the superconductor is no more able to contrast it, so from here on it can start flowing through the sample undisturbed.
