@@ -78,11 +78,12 @@ This translates into *magnetic levitation* of the sample. In fact, when a magnet
 #### London's equation
 Assuming that in a superconductor, which was put below *T~c~* and into a constant magnetic field *B*, a "supercurrent" of electrons moving without friction is present on it's surface, and applying this assumption to third and fourth Maxwell's equations, we can derive London's equation:
 
-$$∇^2\vec B-μ_{0} \frac{e^2 n_{s}}{m_{e}}=0$$Where:
+$$∇^2\vec B-μ_{0} \frac{e^2 n_{s}}{m_{e}}=0$$
+Where:
 
-1. $$e$$ is the elementary charge;
-2. $$m_{e}$$ is the electron mass;
-3. $$n_{s}$$ is the density of electrons.
+1. $e$ is the elementary charge;
+2. $m_{e}$ is the electron mass;
+3. $n_{s}$ is the density of electrons.
 
 This equation, which reconciles BCS theory with Maxwell's one, admits that a little part of the superconductor is penetrated by the magnetic field. The magnetic field inside the sample decays exponentially with the depth, so it never actually goes to zero, but after few nanometers it becomes completely negligible.
 In fact, by defining the *depth of penetration* as:
