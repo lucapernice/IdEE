@@ -49,7 +49,7 @@ The BCS theory proposes that there can be an attractive interaction between two 
 Consider one electron (*Electron #1) traveling through a conductive lattice along a certain path. Due to its negative charge, Electron #1 attracts the positive ions surrounding it, creating a region within the crystal lattice with a higher density of positive charge. This localized positive charge density then attracts more electrons in the same direction of movement. Each itinerant electron can thus be associated with a following electron (Electron #2*).
 
 <div style="text-align:center">
-  <img src="{{ site.baseurl }}/assets/images/immagince electron1 e electron2.png" alt="elettroni" width="70%">
+  <img src="{{ site.baseurl }}/assets/images/immagine electron1 e electron2.png" alt="elettroni" width="70%">
 </div>
 
 These pairs of electrons, where one electron effectively trails another, are known as *Cooper pairs*. This cooperative pairing mechanism, facilitated by lattice distortions and attractive interactions between electrons, is fundamental to understanding superconductivity.
