@@ -16,9 +16,11 @@ authors:
   luca:
     name: Luca Pernice
     display_name: Luca
+    avatar: assets/images/1698579609391.jpeg
     gravatar: https://gravatar.com/lucadicequellochevuole
     email: luca.pernice@outlook.it
     linkedin: https://www.linkedin.com/in/luca-pernice-815823268/
+    web: https://gravatar.com/lucadicequellochevuole
     description: "AI & Data Science student with a focus on large language models."
   andrea:
     name: Andrea Ottogalli
