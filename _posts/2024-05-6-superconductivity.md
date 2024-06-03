@@ -6,6 +6,7 @@ categories: [ physics, science ]
 image: assets/images/foto superconduttore bloccato.png
 beforetoc: "In the realm of physics, few phenomena captivate scientists and engineers like superconductivity. This fascinating property, discovered over a century ago, continues to intrigue researchers for its revolutionary potential in technologies ranging from power transmission to medical imaging. Superconductivity defies conventional understanding by allowing certain materials to conduct electricity with zero resistance at extremely low temperatures. As we delve deeper into the mechanisms behind superconductivity and its applications, new frontiers emerge in our quest for efficient and sustainable technologies. This article explores the principles of this fascinating phenomenon, aiming to explain it in a simple yet comprehensive and exhaustive manner."
 toc: true
+featured: true
 ---
 
 ## What is a Superconductor?
