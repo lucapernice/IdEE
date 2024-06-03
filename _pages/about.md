@@ -17,6 +17,8 @@ Thanks for stopping by, and we hope you enjoy what we have to offer!
 
 We are passionate about learning and exploring the vast expanse of knowledge that the world has to offer. Our diverse backgrounds and interests allow us to bring unique perspectives to the table. Meet the team:
 
+<hr style="border: 1px solid #ccc; margin: 20px 0;">
+
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="assets/images/1698579609391.jpeg" alt="Luca" style="width: 150px; height: auto; margin-right: 20px; object-fit: cover;">
   <div>
