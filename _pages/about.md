@@ -18,7 +18,7 @@ Thanks for stopping by, and we hope you enjoy what we have to offer!
 We are passionate about learning and exploring the vast expanse of knowledge that the world has to offer. Our diverse backgrounds and interests allow us to bring unique perspectives to the table. Meet the team:
 
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="assets/images/1698579609391.jpeg" alt="Luca" style="width: 150px; height: auto; margin-right: 20px;">
+  <img src="assets/images/1698579609391.jpeg" alt="Luca" style="width: 150px; height: auto; margin-right: 20px; object-fit: cover;">
   <div>
     <h3>Luca</h3>
     <p>I am currently pursuing a master's degree in Data Science and Artificial Intelligence at the University of Trieste. My focus is on large language models (LLMs), exploring both academic research perspectives and practical project applications. I am passionate about the potential of AI to transform various industries and enjoy working on cutting-edge projects that push the boundaries of technology.</p>
@@ -26,7 +26,7 @@ We are passionate about learning and exploring the vast expanse of knowledge tha
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="assets/images/fotoblog.jpg" alt="Thomas" style="width: 150px; height: auto; margin-right: 20px;">
+  <img src="assets/images/fotoblog.jpg" alt="Thomas" style="width: 150px; height: auto; margin-right: 20px; object-fit: cover;">
   <div>
     <h3>Thomas</h3>
     <p>Hi! My name is Thomas, and I’m here for you. After graduating from the University of Trieste with a bachelor’s degree in Materials Engineering, I am currently a master's degree student in Materials Engineering and Nanotechnologies at Politecnico di Milano. My fields of expertise are materials science and engineering, solid state physics, and the study of nanostructures. In this blog, I will share my knowledge about what I study every day, trying to explain it as simply as possible. My goal is to explain the physical principles behind the phenomena we will look at without delving into complex mathematical derivations, focusing instead on their phenomenological descriptions and on what’s causing them.</p>
