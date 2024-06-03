@@ -18,17 +18,21 @@ When resistance (*R*) approaches zero, power dissipation also becomes negligible
 
 However, widespread adoption of superconductors faces challenges. These materials are typically expensive to produce, and their superconducting behavior occurs only at extremely low temperatures. Each superconductor has a *critical temperature* (*$T_c$*), below which it exhibits superconductivity. In this paper we'll explore later on why this low-temperature requirement is crucial.
 
+
 <div style="text-align:center">
   <img src="{{ site.baseurl }}/assets/images/grafico con resistance drop.jpeg" alt="Resistence_Drop" width="70%">
 </div>
+
 
 ## Main known Superconductors
 
 The first superconductive element, mercury (Hg), was discovered by  Heike Kamerlingh Onnes in 1911, and it was noticed that it had a critical temperature of approximately 4.2 K. Over time, researchers identified more materials with higher critical temperatures, making them easier to use practically. Notably, materials like YBa<sub>2</sub>Cu<sub>3</sub>O<sub>7</sub> exhibit superconductivity at temperatures above the boiling point of liquid nitrogen (77.2 K), enabling more accessible cooling methods. It's pretty funny noticing that actually YBa<sub>2</sub>Cu<sub>3</sub>O<sub>7</sub> is an insulator at ambient temperature (as usual for ceramic materials), but it becomes superconductive below a certain temperature.
 
+
 <div style="text-align:center">
   <img src="{{ site.baseurl }}/assets/images/tabella superconduttori con loro tc.png" alt="Tabella_Superconduttori" width="70%">
 </div>
+
 
 Today, various superconductors with unique properties, including perovskites, are known (link futuro articolo perovskiti). The ultimate goal remains discovering a material that exhibits superconductivity at ambient temperatures, which would be a game-changer in materials science.
 This is what actually humanity thought she did during the summer of 2023, when some South Koreans scientists announced the discovery of an ambient temperature superconductor: the LK99. It was then found out that this discovery wasn't actually true (link al futuro articolo dell'LK99).
@@ -48,9 +52,11 @@ The BCS theory proposes that there can be an attractive interaction between two 
 
 Consider one electron (*Electron #1) traveling through a conductive lattice along a certain path. Due to its negative charge, Electron #1 attracts the positive ions surrounding it, creating a region within the crystal lattice with a higher density of positive charge. This localized positive charge density then attracts more electrons in the same direction of movement. Each itinerant electron can thus be associated with a following electron (Electron #2*).
 
+
 <div style="text-align:center">
   <img src="{{ site.baseurl }}/assets/images/immagine electron1 e electron2.png" alt="elettroni" width="70%">
 </div>
+
 
 These pairs of electrons, where one electron effectively trails another, are known as *Cooper pairs*. This cooperative pairing mechanism, facilitated by lattice distortions and attractive interactions between electrons, is fundamental to understanding superconductivity.
 
@@ -72,9 +78,11 @@ Where:
 2. n(0) is the density of states at the Fermi level,
 3. V is the coupling energy between phonons and electrons.
 
+
 <div style="text-align:center">
   <img src="{{ site.baseurl }}/assets/images/foto penetrazione campo magnetico.png" alt="penetrazione" width="70%">
 </div>
+
 
 ### Type I and Type II Superconductors
 Superconductors can be divided in two types, based on their reaction to a magnetic field. More specifically they can expel the magnetic field in two different ways.
@@ -89,9 +97,11 @@ $$⟹B_{ext}=-Mμ_{0}$$
 where of course M is the magnetization field. 
 It' clear that there's a linear dependence between M and B.
 
+
 <div style="text-align:center">
   <img src="{{ site.baseurl }}/assets/images/plot M-B.jpeg" alt="plot" width="70%">
 </div>
+
 
 Actually I can see that, after a critical value of the external magnetic field (*$B_c$*), the superconductor is no more able to contrast it, so from here on it can start flowing through the sample undisturbed.
 
@@ -105,21 +115,21 @@ In type II superconductors, we can distinguish three different regimes based on 
     
 3.  *At B > $B_{c2}$*: The magnetization of the superconductor is no longer present, and the external magnetic field passes through the sample undisturbed.
 
+
 <div style="text-align:center">
   <img src="{{ site.baseurl }}/assets/images/grafico tre regimi.png" alt="regimi" width="70%">
 </div>
 
+
 We can observe that in the mixed phase, there is no linear dependence between the magnetic field B and the magnetization M. 
 When the sample is in this regime, magnetic fields concentrate in tubes, leading to the formation of vortex currents.
+
 
 <div style="text-align:center">
   <img src="{{ site.baseurl }}/assets/images/foto tubi di flusso.png" alt="tubi" width="70%">
 </div>
 
-This causes the superconductive sample to lock its orientation in space when subjected to an appropriate magnetic field.
 
-<div style="text-align:center">
-  <img src="{{ site.baseurl }}/assets/images/foto superconduttore bloccato.png" alt="bloccato" width="70%">
-</div>
+This causes the superconductive sample to lock its orientation in space when subjected to an appropriate magnetic field.
 
 Since part of the magnetic field can penetrate inside the material in the mixed phase, the superconductor repels less magnetic field compared to the case where all the field is expelled. This is why type II superconductors typically have a higher critical magnetic field value ($B_{c2}$) compared to type I superconductors.
