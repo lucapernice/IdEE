@@ -25,6 +25,8 @@ We are passionate about learning and exploring the vast expanse of knowledge tha
   </div>
 </div>
 
+<hr style="border: 1px solid #ccc; margin: 20px 0;">
+
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="assets/images/fotoblog.jpg" alt="Thomas" style="width: 150px; height: auto; margin-right: 20px; object-fit: cover;">
   <div>
@@ -34,6 +36,8 @@ We are passionate about learning and exploring the vast expanse of knowledge tha
   </div>
 </div>
 
+<hr style="border: 1px solid #ccc; margin: 20px 0;">
+
 ### Our Mission
 
 At IdEE, our mission is to create a platform where curiosity and learning thrive. We aim to foster a community of like-minded individuals who are eager to explore, discuss, and share knowledge across various fields of science and technology.
@@ -41,7 +45,3 @@ At IdEE, our mission is to create a platform where curiosity and learning thrive
 ### Join the Conversation
 
 We believe that learning is a collaborative process. We encourage you to engage with us through comments and discussions on our posts. Your insights, questions, and feedback are invaluable to us and help us improve our content.
-
-
-
-
