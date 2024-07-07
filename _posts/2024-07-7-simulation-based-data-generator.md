@@ -18,9 +18,9 @@ How can the massive knowledge of a pre-trained model, like GPT 4, be useful when
 
  - The author builds a Pipeline to generate the synthetic tabular data given the dataset description and the column names.
 
-   <img src="images/pipeline.png" alt="pipeline" width="800"/>
+   <img src="https://github.com/annalisapaladino/PML-DL-project/blob/cd8be57feec0149fd23843a83f5bb3014dffeef5/images/pipeline.png" alt="pipeline" width="800"/>
 
-  
+  https://github.com/annalisapaladino/PML-DL-project/blob/cd8be57feec0149fd23843a83f5bb3014dffeef5/images/pipeline.png
 
 - To preprocess the data we attach to a prompt that consist of the dataset description and the column names some row values from the original dataset as completition. Here is an example from the training dataset: 
 
