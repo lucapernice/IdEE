@@ -8,6 +8,7 @@ description: "How can the massive knowledge of a pre-trained model, like GPT 4, 
 featured: true
 ---
 
+
 How can the massive knowledge of a pre-trained model, like GPT 4, be useful when generating synthetic datasets? Actually, if our goal is to replicate the same distribution from an original dataset to produce a synthetic counterpart, that massive knowledge is unnecessary since we don't need any additional information other than the one contained in the original data. Now suppose that we want to generate a dataset by simply providing a natural language description of it, but the model isn't trained on the data we want to produce. This is the idea discussed in the first part of the article, where we review a work called _Universal Tabular Data Generator with LLM_. The idea of this work is interesting, but lacks of an important explanation: how do the model generate a particular value? To furtherly investigate this problem, instead of directly producing a tabular dataset, we use the most powerful GPT model avaible today to perform controlled simulations. Collecting all the data, after these simulations, allows us not only to observe the results, but also the "reasoning" of the model that produced them. In this work we focus on simulating human behavior, but the approach can be generalized.
 
 # 1. Review of [Universal Tabular Data Generator with LLM](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1234/final-reports/final-report-169369314.pdf)
