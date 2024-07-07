@@ -20,7 +20,6 @@ How can the massive knowledge of a pre-trained model, like GPT 4, be useful when
 
    <img src="https://github.com/annalisapaladino/PML-DL-project/blob/cd8be57feec0149fd23843a83f5bb3014dffeef5/images/pipeline.png" alt="pipeline" width="800"/>
 
-  https://github.com/annalisapaladino/PML-DL-project/blob/cd8be57feec0149fd23843a83f5bb3014dffeef5/images/pipeline.png
 
 - To preprocess the data we attach to a prompt that consist of the dataset description and the column names some row values from the original dataset as completition. Here is an example from the training dataset: 
 
@@ -72,7 +71,8 @@ We propose two alternatives to the pipeline showed before: one involving code to
 
 We propose a very simple framework to generate tabular datasets given a natural language description. In this case is not necessary to finetune the model but we leverage on tool calls by an agentic LLM.
 
-<img src="images/framework.png" alt="framework" width="800"/>
+<img src="https://github.com/annalisapaladino/PML-DL-project/blob/cd8be57feec0149fd23843a83f5bb3014dffeef5/images/framework.png" alt="framework" width="800"/>
+
 
 - The user provide a natural language description of the dataset it wants to generate, for example:
 
@@ -109,7 +109,7 @@ Another work we encourage to read is the third one we referenced above. They sta
 ## Simulations generator
 We propose a different approach to synthetic data generation: we give the model a representation of an enviroment, then ask the LLM to produce a simulation given particular conditions. The system/instruction prompt is useful to generate multiple simulations since it remains costant amd can be defined once.  We can perform as many simulation as we need, then we can collect all the data we need and store them in a new csv file.
 
-<img src="images/framework2.png" alt="framework" width="800"/>
+<img src="https://github.com/annalisapaladino/PML-DL-project/blob/cd8be57feec0149fd23843a83f5bb3014dffeef5/images/framework2.png" alt="framework" width="800"/>
 
 The representation of an enviroment can be a natural language description of it, with the addition of a dataset containing some informations we need. The system/instruction prompt isn't strictly necessary, but it's useful when we want to perform multiple simulations and since it remains costant it can be defined only once. With the next example it will be more clear.
 
@@ -209,13 +209,13 @@ We expect that increasing the annual income, also the likelihood will increase.
 
 
 
-<img src="images/income_likelihood_plot.png" alt="dependent likelihood" width="500"/>
+<img src="https://github.com/annalisapaladino/PML-DL-project/blob/cd8be57feec0149fd23843a83f5bb3014dffeef5/images/income_likelihood_plot.png" alt="dependent likelihood" width="500"/>
 
 It's important to notice when the generation of each value is independent from the previous ones or not. In this case they're dependent: chatGPT save the chat history, so it consider previous given values of the likelihood (**carryover effect**). To obtain independent results, after each generation we clear the chat history. 
 We observe less sensitive results in respect to the changes of income.
 
 
-<img src="images/independent_income_likelihood_plot.png" alt="independent likelihood" width="500"/>
+<img src="https://github.com/annalisapaladino/PML-DL-project/blob/cd8be57feec0149fd23843a83f5bb3014dffeef5/images/independent_income_likelihood_plot.png" alt="independent likelihood" width="500"/>
 
 If we take larger values of income, we finally observe some variations:
 
@@ -226,7 +226,7 @@ Anyway, this represent a problem: we want to make independent simulations, but t
 The results now are significantly different.
 
 
-<img src="images/independent_income_likelihoo_with_median_d_plot.png" alt="independent likelihood" width="500"/>
+<img src="https://github.com/annalisapaladino/PML-DL-project/blob/cd8be57feec0149fd23843a83f5bb3014dffeef5/images/independent_income_likelihoo_with_median_d_plot.png" alt="independent likelihood" width="500"/>
 
 
 From this experiment we learned that, in order to obtain independent and realistic simulations, changing the parameters is generally not enought, we need to add some informations. We can expect that **adding more informations to the prompt, the model will adapt its internal representation and capture the world dynamics better**. In this example, adding the median annual income force the model to compare the family income with the US median, in other words the model changed the generation dynamics.
@@ -243,7 +243,7 @@ We modify the prices of the apples: the _Golden Harvest_ aren't the most expensi
 | Apple   | 3.70      | Fresh and crispy red apples   | Nature's Delight |
 
 
-<img src="images/modified_independent_income_likelihoo_with_median_d_plot.png" alt="dependent likelihood" width="500"/>
+<img src="https://github.com/annalisapaladino/PML-DL-project/blob/cd8be57feec0149fd23843a83f5bb3014dffeef5/images/modified_independent_income_likelihoo_with_median_d_plot.png" alt="dependent likelihood" width="500"/>
 
 We observe a slightly higher likelihood for the lower income values due to the fact that now the price comparison with the other brands is more fair. 
 
