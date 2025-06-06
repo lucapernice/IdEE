@@ -19,7 +19,7 @@ How can the massive knowledge of a pre-trained model, like GPT 4, be useful when
 
  - The author builds a Pipeline to generate the synthetic tabular data given the dataset description and the column names.
 
-   <img src="https://github.com/annalisapaladino/PML-DL-project/blob/cd8be57feec0149fd23843a83f5bb3014dffeef5/images/pipeline.png" alt="pipeline" width="800"/>
+   <img src="https://github.com/lucapernice/Universal-Tabular-Data-Generator/blob/main/images/pipeline.png" alt="pipeline" width="800"/>
 
 
 - To preprocess the data we attach to a prompt that consist of the dataset description and the column names some row values from the original dataset as completition. Here is an example from the training dataset: 
@@ -72,7 +72,7 @@ We propose two alternatives to the pipeline showed before: one involving code to
 
 We propose a very simple framework to generate tabular datasets given a natural language description. In this case is not necessary to finetune the model but we leverage on tool calls by an agentic LLM.
 
-<img src="https://github.com/annalisapaladino/PML-DL-project/blob/cd8be57feec0149fd23843a83f5bb3014dffeef5/images/framework.png" alt="framework" width="800"/>
+<img src="https://github.com/lucapernice/Universal-Tabular-Data-Generator/blob/main/images/framework.png" alt="framework" width="800"/>
 
 
 - The user provide a natural language description of the dataset it wants to generate, for example:
