@@ -3,7 +3,7 @@ layout: post
 title: "Simulation based synthetic data generator with LLMs"
 author: luca
 categories: [ LLM, Artificial Intelligence ]
-image: assets/images/_f69d532a-e459-4160-9c18-3d73dae7dfc8.jpeg
+image: assets/images/copertina_1.png
 description: "How can the massive knowledge of a pre-trained model, like GPT 4, be useful when generating synthetic datasets?"
 featured: true
 ---
