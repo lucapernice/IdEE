@@ -19,10 +19,9 @@ How can the massive knowledge of a pre-trained model, like GPT 4, be useful when
 
  - The author builds a Pipeline to generate the synthetic tabular data given the dataset description and the column names.
 
-   <div style="text-align:center">
+<div style="text-align:center">
   <figure>
-    <img src="{{ site.baseurl }}/assets/images/pipeline.png" alt="pipeline" width="70%">
-    <figcaption>Figure 1: Image from "Connecting Large Language Models with Evolutionary Algorithms Yields Powerful Prompt Optimizers" paper </figcaption>
+    <img src="{{ site.baseurl }}/assets/images/pipeline.png" alt="pipeline" >    
   </figure>
 </div>
 
